@@ -1,0 +1,42 @@
+.carousel{
+    background-color: #f2f5f9;
+    padding: 0 50px;
+}
+/* .slide{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 50px;
+} */
+.active .carousel{
+    background-color: #000000;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 10%;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  .prev-icon{
+    width: 50px; 
+    height: 50px;
+    background-color: #ffffff; 
+    position: relative;
+    right: 30%; 
+  }
+  .next-icon{
+    width: 50px; 
+    height: 50px;
+    background-color: #ffffff; 
+    position: relative;
+    left: 30%;
+  }
+  .prev-icon span,.next-icon span{
+    color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

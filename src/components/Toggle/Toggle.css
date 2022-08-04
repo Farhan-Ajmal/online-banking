@@ -1,0 +1,19 @@
+.toggle{
+	position: relative;
+	width: 60px;
+    height: 30px;
+	border-radius: 160px;
+	background-color: #fff;
+    border: 1px solid #FF6363;
+	cursor: pointer;
+}
+.toggle .indicator{
+	position: absolute;
+	top: 0;
+	left: 0;
+    width: 28px;
+    height: 28px;
+	background-color: #FF6363;
+	border-radius: 50%;
+	transform: scale(0.9);
+}

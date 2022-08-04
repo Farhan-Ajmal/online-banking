@@ -1,0 +1,11 @@
+.form{
+    background-color: #ffffff;
+    padding: 40px;
+  }
+  .form-control{
+    border: 2px solid #e9ecef;
+  }
+  .form-check-input:checked {
+    background-color: #FF6363;
+    border-color: #FF6363;
+  }

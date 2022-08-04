@@ -1,0 +1,39 @@
+.footer .widgets ul li a, 
+.footer .navigations ul li a {
+    text-decoration: none;
+}
+.footer .widgets ul li a:hover,
+.footer .navigations ul li a:hover {
+    color: #FF6363;
+}
+.footer .widgets ul {
+    list-style-type: none;
+    position: relative;
+    left: -20px;
+    top: 20px;
+}
+.footer .widgets ul li {
+    display: inline;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.footer .navigations ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer .navigations ul li{
+    margin-bottom: 1rem;
+}
+.widgets>*,.navigations>.row>*{
+    margin-bottom: 2rem;
+}
+.navigations .f-n-columns ul{
+    margin-bottom: 1rem;
+}
+.copyright{
+    margin-top: 3rem;
+}
+.copyright p span{
+    color: #dc3545!important;   
+}

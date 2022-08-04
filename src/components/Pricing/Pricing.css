@@ -1,0 +1,73 @@
+.pricing .p-title{
+    margin-bottom: 50px;
+}
+.price-toggle{
+	position: relative;
+	width: 60px;
+    height: 30px;
+	border-radius: 160px;
+	background-color: #fff;
+    border: 1px solid #FF6363;
+	cursor: pointer;
+}
+.price-toggle .indicator{
+	position: absolute;
+	top: 0;
+	left: 0;
+    width: 28px;
+    height: 28px;
+	background-color: #FF6363;
+	border-radius: 50%;
+	transform: scale(0.9);
+}
+.price-toggle.active{
+background-color: #fff;
+}
+.price-toggle.active .indicator{
+	left: 30px;
+}
+.yearly-plan{
+    background-color: #FF6363;
+    color: #ffffff;
+    font-weight: bold;
+    display: inline;
+    padding: 5px 12px;
+    border-radius: 30px;
+}
+.p-columns{
+    padding: 70px 40px;
+}
+.p-column.active {
+    background-color: #ffffff;
+}
+.p-columns h3{
+    margin-bottom: 30px;
+}
+.p-columns p{
+    margin-bottom: 30px;
+}
+.p-columns hr{
+    margin-bottom: 30px;
+}
+.p-columns .price1,
+.p-columns .price2,
+.p-columns .price3{
+    color: #FF6363;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.p-columns .per-month{
+    margin-bottom: 30px;
+}
+.p-columns>ul{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #5F5F5F;
+    margin-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    font-family: 'Catamaran', sans-serif;
+}
+.p-columns>ul>li{
+    text-align: start;
+}
